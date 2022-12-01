@@ -17,17 +17,15 @@ public class Main {
         var balanceWeight = boxerWeightTwo % boxerWeightOne;
         System.out.println("2-ой способ: Весовая разница между бойцами "+balanceWeight+" кг!");
 
-        System.out.println("Задание 8.1");
+        System.out.println("Задание 8");
         // Первая часть
         var totalTime = 640;
         var workingHours = 8;
         var totalEmployee = totalTime / workingHours;
         System.out.println("Всего работников в компании " +totalEmployee+ " человек.");
-
-        System.out.println("Задание 8.2");
         // Вторая часть
         totalEmployee = totalEmployee + 94;
         totalTime = totalEmployee * workingHours;
-        System.out.println("Если в компании работает " +totalEmployee+ " человек, то всего "+totalTime+ " часа работы может быть поделено между сотрудниками.");
+        System.out.println("Если в компании работает " +totalEmployee+ " человека, то всего "+totalTime+ " часа работы может быть поделено между сотрудниками.");
     }
 }
